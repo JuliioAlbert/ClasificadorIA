@@ -16,10 +16,10 @@ def esStream(tex, CON):
     sum = 0
     prom = 0
     l = len(tex)
-    l1 = len(CON)
+    ln = len(CON)
     comparacion = []
     for i in range(l):
-        for j in range (l1):
+        for j in range (ln):
             if CON[j][0] == t[i]:
                 comparacion.append(CON[j])
         for l in range(len(comparacion)):
